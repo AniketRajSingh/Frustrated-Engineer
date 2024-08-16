@@ -227,7 +227,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [os.environ.get("REDIS_URL", "redis://default:f2f87e23b8ff4abbbb634419bedc51cb@dominant-viper-42080.upstash.io:42080")],
+            "hosts": [os.environ.get("REDIS_URL", "redis://default:Ad30AAIjcDEyNmIzY2FhZGIwMmM0NzBkODliNDMwMjk4ZmVkYzQ5ZnAxMA@stirred-silkworm-56820.upstash.io:6379")],
         },
     },
 }
